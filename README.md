@@ -1,10 +1,10 @@
 # assingment-4
 fourth programming assignment 
 
-Name: Dylan Sen
-Assignment Number: 4
-Date: 3/4/2018
-Description: This is a transaction portal for Beautiful and Handsome T-shirts. It uses functions and loops to run a sequence for customers to purchase shirts.
+#Name: Dylan Sen
+#Assignment Number: 4
+#Date: 3/4/2018
+#Description: This is a transaction portal for Beautiful and Handsome T-shirts. It uses functions and loops to run a sequence for customers to purchase shirts.
 
 #named constants
 RED_SHIRT_PRICE = 8 #price for a red shirt
@@ -130,10 +130,7 @@ def main():
         print("{amount:.2f} Yellow T-Shirts") .format(amount=yellow_shirts_ordered)
         print("{amount:.2f}Total T-shirts") .format(ammount=total_shirts_bought)
 
-
         if buy_more == 1:
                 print("You will also receive a free green T-shirt!")
-
-
 
 main()
